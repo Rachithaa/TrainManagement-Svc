@@ -1,8 +1,8 @@
-package svc.repository;
+package svc.routes.repository;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 
-import svc.entity.routeEntity;
+import svc.routes.entity.routeEntity;
 
 public interface routeRepo extends MongoRepository<routeEntity, Integer> {
 

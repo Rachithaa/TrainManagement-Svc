@@ -1,4 +1,4 @@
-package svc.entity;
+package svc.routes.entity;
 
 import java.io.Serializable;
 
@@ -6,7 +6,6 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import jakarta.persistence.Entity;
 import jakarta.validation.constraints.Digits;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
@@ -17,11 +16,10 @@ import lombok.Generated;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import svc.constants.routeConstant;
+import svc.routes.constants.routeConstant;
 
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity
 @Generated
 @Getter
 @Setter
@@ -44,15 +42,15 @@ public class routeEntity implements Serializable{
 	private String routeName;
 	
 	@NotBlank(message ="Required")
-	@Pattern(regexp="^[0-3][0-9]/[1-12]/[1-10000]$",message="Date of the Train should be in DD/MM/YYYY")
-	private String DayMonYear;
+	@Pattern(regexp="[0-3][0-9]/[0-1][0-9]/[0-9][0-9][0-9][0-9]$",message="Date of the Train should be in DD/MM/YYYY")
+	private String dayMonYear;
 	
 	@NotBlank(message ="Required")
-	@Pattern(regexp="^[0-24]:[0-60]:[0-60]$",message="start time of the Train in this route should be of hh:mm:ss")
+	@Pattern(regexp="[0-2][0-9]:[0-5][0-9]:[0-5][0-9]$",message="start time of the Train in this route should be of hh:mm:ss")
 	private String startRouteTrainTimings;
 	
 	@NotBlank(message ="Required")
-	@Pattern(regexp="^[0-24]:[0-60]:[0-60]$",message="reach time of the Train in this route should be of hh:mm:ss")
+	@Pattern(regexp="[0-2][0-9]:[0-5][0-9]:[0-5][0-9]$",message="reach time of the Train in this route should be of hh:mm:ss")
 	private String routeReachTrainTimings;
 	
 	@NotBlank(message ="Required")

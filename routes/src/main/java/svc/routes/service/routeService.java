@@ -1,10 +1,8 @@
-package svc.service;
+package svc.routes.service;
 
 import java.util.List;
 
-import org.springframework.http.ResponseEntity;
-
-import svc.entity.routeEntity;
+import svc.routes.entity.routeEntity;
 
 
 public interface routeService {
