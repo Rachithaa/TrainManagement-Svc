@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
 @EnableMongoRepositories
-@SpringBootApplication(exclude={MongoAutoConfiguration.class})
+@SpringBootApplication
 public class RoutesApplication {
 
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package svc.constants;
+package svc.routes.constants;
 
 public class routeConstant {
 
