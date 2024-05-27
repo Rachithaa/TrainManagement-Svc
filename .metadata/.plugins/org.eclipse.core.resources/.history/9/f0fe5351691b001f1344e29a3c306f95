@@ -1,0 +1,12 @@
+package svc.constants;
+
+public class routeConstant {
+
+	  private routeConstant() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public static final String ROUTE_TABLE = "Routes";
+	  public static final String ROUTE_API = "/routes";
+
+}

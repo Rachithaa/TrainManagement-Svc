@@ -1,0 +1,5 @@
+package svc.repository;
+
+public interface routeRepo {
+
+}

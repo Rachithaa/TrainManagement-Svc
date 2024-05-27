@@ -1,0 +1,7 @@
+package svc.serviceImpl;
+
+import svc.service.routeService;
+
+public class routeServiceImpl implements routeService {
+
+}

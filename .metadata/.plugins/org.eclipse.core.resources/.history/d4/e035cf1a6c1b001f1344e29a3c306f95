@@ -1,0 +1,11 @@
+package svc.constants;
+
+public class routeConstant {
+
+	  private routeConstant() {
+		super();
+	}
+	public static final String ROUTE_TABLE = "Routes";
+	public static final String ROUTE_API = "/routes";
+
+}

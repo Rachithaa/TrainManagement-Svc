@@ -1,0 +1,3 @@
+spring.application.name=Route-SVC
+server.port=8016
+
