@@ -16,7 +16,6 @@ import svc.routes.service.routeService;
 @RequestMapping(value=routeConstant.ROUTE_API,produces=MediaType.APPLICATION_JSON_VALUE)
 @RestController
 public class routeController {
-	
 	private routeService routeServices;
 
 	@Autowired
@@ -24,13 +23,8 @@ public class routeController {
 		super();
 		this.routeServices=routeServices;
 	}
-	
-	@PostMapping(value="/createroutes",produces=MediaType.APPLICATION_JSON_VALUE)
+	@PostMapping(produces=MediaType.APPLICATION_JSON_VALUE)
 	public List<routeEntity> createRoutes(@RequestBody List<routeEntity> routes){
 		return routeServices.createRoutes(routes);
-
 	}
-
-	
-
 }
