@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/routes/pom.xml" />
         <option value="$PROJECT_DIR$/trains/pom.xml" />
         <option value="$PROJECT_DIR$/user/pom.xml" />
+        <option value="$PROJECT_DIR$/Eureka/pom.xml" />
       </list>
     </option>
   </component>

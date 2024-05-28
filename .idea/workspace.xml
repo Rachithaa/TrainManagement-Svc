@@ -5,41 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="757cac3d-0d6a-4bb5-803c-d7282c5bc3fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/trains/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trains/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trains/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trains/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trains/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trains/src/main/java/svc/trains/TrainsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trains/src/main/java/svc/trains/constants/trainConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trains/src/main/java/svc/trains/controller/trainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trains/src/main/java/svc/trains/entity/trainEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trains/src/main/java/svc/trains/repository/trainRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trains/src/main/java/svc/trains/service/trainService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trains/src/main/java/svc/trains/serviceImpl/trainServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trains/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trains/src/test/java/svc/trains/TrainsApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/svc/user/UserApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/svc/user/constants/userConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/svc/user/controller/userController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/svc/user/entity/userEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/svc/user/repository/userRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/svc/user/service/userService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/svc/user/serviceImpl/userServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/test/java/svc/user/UserApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eureka/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eureka/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eureka/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eureka/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eureka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eureka/src/main/java/svc/Eureka/EurekaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eureka/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eureka/src/test/java/svc/Eureka/EurekaApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/src/main/java/svc/routes/controller/routeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/routes/src/main/java/svc/routes/controller/routeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/src/main/java/svc/routes/entity/routeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/routes/src/main/java/svc/routes/entity/routeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/routes/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/src/main/java/svc/routes/RoutesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/routes/src/main/java/svc/routes/RoutesApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/routes/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trains/src/main/java/svc/trains/TrainsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/trains/src/main/java/svc/trains/TrainsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trains/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/trains/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,13 +65,26 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/Proj/user",
+    "last_opened_file_path": "D:/Proj/Eureka",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.UserApplication">
+  <component name="RunManager" selected="Application.RoutesApplication">
+    <configuration name="EurekaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="svc.Eureka.EurekaApplication" />
+      <module name="Eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="svc.Eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RoutesApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -130,6 +126,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in Eureka" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="Eureka" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Proj" />
       <method v="2">
@@ -145,6 +151,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EurekaApplication" />
         <item itemvalue="Application.UserApplication" />
       </list>
     </recent_temporary>
