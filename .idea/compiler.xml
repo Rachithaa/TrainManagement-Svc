@@ -11,12 +11,14 @@
         <module name="trains" />
         <module name="user" />
         <module name="Eureka" />
+        <module name="Gateway" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Eureka" options="-parameters" />
+      <module name="Gateway" options="-parameters" />
       <module name="routes" options="-parameters" />
       <module name="trains" options="-parameters" />
       <module name="user" options="-parameters" />

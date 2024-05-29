@@ -1,0 +1,24 @@
+server:
+  port: 8900
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: ROUTE-SVC
+          uri: lb://ROUTE-SVC
+          predicates:
+            - Path=/routes**
+        - id: TRAINS-SVC
+          uri: lb://TRAINS-SVC
+          predicates:
+            - Path=/trains**
+        - id: USER-SVC
+          uri: lb://USER-SVC
+          predicates:
+            - Path=/users**
+    discovery:
+      locator:
+        enabled: true
+
+  application:
+    name: API-GATEWAY-SVC
