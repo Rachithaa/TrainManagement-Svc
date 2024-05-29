@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="757cac3d-0d6a-4bb5-803c-d7282c5bc3fd" name="Changes" comment="">
+
       <change afterPath="$PROJECT_DIR$/Gateway/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Gateway/mvnw" afterDir="false" />
@@ -23,6 +24,7 @@
       <change beforePath="$PROJECT_DIR$/trains/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/trains/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/resources/application.properties" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

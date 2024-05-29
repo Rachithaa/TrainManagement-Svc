@@ -3,6 +3,7 @@ package svc.routes.entity;
 import java.io.Serializable;
 
 import jakarta.validation.constraints.*;
+
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -53,7 +54,7 @@ public class routeEntity implements Serializable{
 	@NotNull
 	@Digits(integer = 4,fraction = 2)
 	private double totalDistance;
-	
+  
 	@NotBlank(message ="Required")
 	@Size(min=3,max=1000)
 	@Indexed(unique=true)
