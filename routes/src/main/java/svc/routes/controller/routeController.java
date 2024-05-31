@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import svc.routes.constants.routeConstant;
 import svc.routes.entity.routeEntity;
+import svc.routes.mapper.routeModelToEntity;
+import svc.routes.model.routeModel;
 import svc.routes.service.routeService;
 
 @RequestMapping(value=routeConstant.ROUTE_API,produces=MediaType.APPLICATION_JSON_VALUE)
@@ -18,13 +20,16 @@ import svc.routes.service.routeService;
 public class routeController {
 	private routeService routeServices;
 
+	private routeModelToEntity mapRouteModelToEntityMapper;
+
 	@Autowired
-	public routeController(routeService routeServices) {
+	public routeController(routeService routeServices,routeModelToEntity mapRouteModelToEntityMapper) {
 		super();
 		this.routeServices=routeServices;
+		this.mapRouteModelToEntityMapper=mapRouteModelToEntityMapper;
 	}
 	@PostMapping(produces=MediaType.APPLICATION_JSON_VALUE)
-	public List<routeEntity> createRoutes(@RequestBody List<routeEntity> routes){
-		return routeServices.createRoutes(routes);
+	public List<routeModel> createRoutes(@RequestBody List<routeModel> routes){
+		return routeServices.createRoutes(mapRouteModelToEntityMapper.mapRouteModelToEntity(routes));
 	}
 }

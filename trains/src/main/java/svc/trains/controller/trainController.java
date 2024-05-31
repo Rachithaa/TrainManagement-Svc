@@ -6,8 +6,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.reactive.function.client.WebClient;
 import svc.trains.constants.trainConstant;
-import svc.trains.entity.trainEntity;
+import svc.trains.model.trainRequestModel;
+import svc.trains.model.trainResponseModel;
 import svc.trains.service.trainService;
 
 @RequestMapping(value= trainConstant.TRAIN_API,produces= MediaType.APPLICATION_JSON_VALUE)
@@ -21,7 +23,7 @@ public class trainController {
     }
 
     @PostMapping(produces=MediaType.APPLICATION_JSON_VALUE)
-    public trainEntity createTrains(@RequestBody trainEntity trains)
+    public trainResponseModel createTrains(@RequestBody trainRequestModel trains)
     {
         return trainServices.createTrain(trains);
     }
