@@ -18,6 +18,7 @@ import svc.routes.service.routeService;
 @RequestMapping(value=routeConstant.ROUTE_API,produces=MediaType.APPLICATION_JSON_VALUE)
 @RestController
 public class routeController {
+
 	private routeService routeServices;
 
 	private routeModelToEntity mapRouteModelToEntityMapper;
@@ -28,6 +29,7 @@ public class routeController {
 		this.routeServices=routeServices;
 		this.mapRouteModelToEntityMapper=mapRouteModelToEntityMapper;
 	}
+
 	@PostMapping(produces=MediaType.APPLICATION_JSON_VALUE)
 	public List<routeModel> createRoutes(@RequestBody List<routeModel> routes){
 		return routeServices.createRoutes(mapRouteModelToEntityMapper.mapRouteModelToEntity(routes));

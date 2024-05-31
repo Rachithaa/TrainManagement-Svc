@@ -52,7 +52,7 @@ public class routeEntity implements Serializable{
 	@NotNull
 	@Digits(integer = 4,fraction = 2)
 	private double totalDistance;
-	
+  
 	@NotBlank(message ="Required")
 	@Size(min=3,max=1000)
 	@Indexed(unique=true)
